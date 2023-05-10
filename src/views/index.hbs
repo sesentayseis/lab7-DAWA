@@ -1,0 +1,29 @@
+<div style="flex: auto; margin-top: 20px; margin-left:20px">
+<form action="/Songs/add" method="POST">
+    <div>
+        <label for="title">Escribe el titulo:</label>
+        <input type="text" name="title" placeholder="titulo" id="title" required>
+    </div>
+    <div>
+        <label for="artist">Escribe el nombre del artista o grupo:</label>
+        <input type="text" name="artist" placeholder="nombre" id="artist" required>
+    </div>
+    <div>
+        <label for="album">Escribe el nombre del allbum:</label>
+        <input type="text" name="album" placeholder="allbum" id="album" required>
+    </div>
+    <div>
+        <label for="year">Escribe el año que salio la canción:</label>
+        <input type="number" name="year" placeholder="año" id="year" required>
+    </div>
+    <div>
+        <label for="genre">Escribe el genero musical de la canción:</label>
+        <input type="text" name="genre" placeholder="genero" id="genre" required>
+    </div>
+    <div>
+        <label for="length">Escribe el duración de la canción:</label>
+        <input type="text" name="length" placeholder="duracion" id="length" required>
+    </div>
+    <button class="btn btn-success">Agregar</button>
+</form>
+</div>
